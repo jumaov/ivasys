@@ -1,5 +1,5 @@
 <?php
-include("../funciones.php");
+include("../web/funciones.php");
 conexionlocal();
 $sql = "select pro_cod,dec_compras from declaraciones where dec_estado='t';";
 //$result = pg_query($query) or die ("Error al realizar la consulta");

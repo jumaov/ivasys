@@ -1,5 +1,5 @@
 <?php
-include("../funciones.php");
+include("../web/funciones.php");
 conexionlocal();
 $sql = "select * from empresas where pro_activo='t';";
 //$result = pg_query($query) or die ("Error al realizar la consulta");

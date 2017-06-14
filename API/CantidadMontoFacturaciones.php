@@ -1,5 +1,5 @@
 <?php
-include("../funciones.php");
+include("../web/funciones.php");
 conexionlocal();
 $sql = "select pro_cod, dec_facturacion from declaraciones where dec_estado='t'";
        
